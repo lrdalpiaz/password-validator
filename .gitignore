@@ -1,0 +1,73 @@
+# compiled output
+*/dist*
+*/tmp*
+/.temp*.txt
+*/out-tsc*
+*/target/*
+
+# dependencies
+*/node_modules*
+
+# IDEs and editors
+.idea
+*/.idea
+*.project
+*.classpath
+*.c9/*
+*.launch
+*.settings/
+*.sublime-workspace
+*.iml
+*.NavData
+*.metadata
+*.iws
+*.ipr
+*.log
+out/
+/bin/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+*/e2e/*.js
+*/e2e/*.map
+
+# System Files
+.DS_Store
+*Thumbs.db
+*nb-configuration.xml
+
+
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+*/nbproject/
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/

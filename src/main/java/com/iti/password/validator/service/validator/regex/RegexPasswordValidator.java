@@ -6,8 +6,8 @@ import java.util.regex.Pattern;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.iti.password.validator.service.validator.PasswordValidator;
 import com.iti.password.validator.service.model.Password;
+import com.iti.password.validator.service.validator.PasswordValidator;
 
 @Component
 public class RegexPasswordValidator implements PasswordValidator {

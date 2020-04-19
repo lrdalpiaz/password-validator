@@ -1,13 +1,13 @@
-package com.iti.password.checker;
+package com.iti.password.validator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PasswordCheckerApplication {
+public class PasswordValidationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PasswordCheckerApplication.class, args);
+		SpringApplication.run(PasswordValidationApplication.class, args);
 	}
 
 }
